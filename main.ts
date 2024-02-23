@@ -22,4 +22,5 @@ for (let index = 0; index < 4; index++) {
     mySprite.vx = randint(10, 60)
     mySprite.setBounceOnWall(true)
     mySprite.y = randint(0, 100)
+    mySprite.startEffect(effects.bubbles, 100)
 }
